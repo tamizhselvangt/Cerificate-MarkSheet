@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif; */
 }
 
 body {
@@ -13,6 +15,14 @@ body {
   background-color: darkgray;
 }
 
+
+.grand-total{
+  text-align: right;
+}
+
+.total-total{
+  text-align: center;
+}
 .container {
   width: 70%;
   height: 100%;
@@ -79,7 +89,7 @@ body {
 .candidate-name {
   grid-column: auto / span 2;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #C39A56;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -87,12 +97,13 @@ body {
   justify-content: center;
   text-align: center;
   font-weight: bold;
+  background-color: rgba(251, 235, 221, 0.3);
 }
 
 .Course {
   grid-column: auto / span 2;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #C39A56;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -100,12 +111,13 @@ body {
   justify-content: center;
   text-align: center;
   font-weight: bold;
+  background-color: rgba(251, 235, 221, 0.3);
 }
 
 .authorise {
   grid-column: auto / span 2;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid #C39A56;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -113,10 +125,11 @@ body {
   justify-content: center;
   text-align: center;
   font-weight: bold;
+  background-color: rgba(251, 235, 221, 0.3);
 }
 .reg-no,
 .enrol {
-  border: 2px solid black;
+  border: 2px solid #C39A56;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -124,6 +137,7 @@ body {
   justify-content: center;
   text-align: center;
   font-weight: bold;
+  background-color: rgba(251, 235, 221, 0.3);
 }
 
 .red-title {
@@ -158,12 +172,17 @@ tr:nth-child(even) {
 table {
   border-collapse: collapse;
   width: 100%;
+  background-color: rgba(251, 235, 221, 0.3);
 }
 td,
 th {
   padding: 1rem;
-  border: 2px solid black;
+  border: 2px solid #C39A56;
   border-collapse: collapse;
+}
+
+td{
+  font-weight: bolder;
 }
 
 .table-title {
@@ -178,7 +197,7 @@ input {
 }
 
 .total-total {
-  text-align: end;
+  text-align: center;
 }
 
 .bottom {
